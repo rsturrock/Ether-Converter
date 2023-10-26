@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Ether Unit Converter</title>
+</head>
+<body>
+    <h1 class="page-title">Ether Unit Converter</h1>
+
+  <table class="input-table">
+    <tr>
+      <td>
+        <label for="input1">Wei:</label>
+      </td>
+      <td>
+        <input type="text" id="input1" placeholder="Wei">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="input2">Gwei:</label>
+      </td>
+      <td>
+        <input type="text" id="input2" placeholder="Gwei">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="input3">Ether:</label>
+      </td>
+      <td>
+        <input type="text" id="input3" placeholder="Ether">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="input4">USD:</label>
+      </td>
+      <td>
+        <input type="text" id="input4" placeholder="USD">
+      </td>
+    </tr>
+  </table>
+  <h2 id="crypto-prices"></h2>
+
+  <!-- Scrolling text container -->
+  <div class="scrolling-text-container">
+    <p id="scrolling-text">
+      Bitcoin Price: $XX.XX | Ethereum Price: $YY.YY
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
