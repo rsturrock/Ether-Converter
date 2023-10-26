@@ -58,6 +58,6 @@ body {
 }
 
 @keyframes scrolling-text {
-  0% { transform: translateX(100%); }
+  0% { transform: translateX(1%); }
   100% { transform: translateX(-100%); }
 }
