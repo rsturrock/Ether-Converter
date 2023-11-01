@@ -61,3 +61,8 @@ body {
   0% { transform: translateX(1%); }
   100% { transform: translateX(-100%); }
 }
+
+img {
+  margin-top: 40px;
+  width: 100px;
+}
